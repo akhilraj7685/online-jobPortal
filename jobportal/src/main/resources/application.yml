@@ -1,0 +1,58 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    username: akhil
+    password: akhil
+    
+  jpa:
+    show-sql: true
+    
+    hibernate:
+     #ddl-auto: update
+     ddl-auto: create-drop
+     
+    properties:
+      hibernate: 
+        dialect: org.hibernate.dialect.Oracle10gDialect    
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /WEB-INF/jsp/
+     
+
+
+
+
+        
+logging:
+    level:
+      org:
+       hibernate:
+         SQL: DEBUG
+         type:
+         descriptor:
+            sql:
+              BasicBinder: TRACE
+    
+   
+debug: true 
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+    
+ 
+   
+    
+     
+      
+

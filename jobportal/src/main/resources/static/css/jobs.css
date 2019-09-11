@@ -1,0 +1,47 @@
+#job{
+    margin:1%;
+
+}
+#l{
+
+    float: left;
+    width: 29%;
+    height: 80%;
+    background-color:ghostwhite;
+    position:static;
+    
+    box-shadow: bisque 3px 3px 3px;
+}
+#m{
+
+    margin-left: .5%;
+    margin-right: .5%;
+    float: left;
+    width: 40%;
+    height: 100%;
+
+    
+}
+#r{
+    float: left;
+    width: 29%;
+    height: 80%;
+    background-color:ghostwhite;
+
+    box-shadow: bisque 3px 3px 3px;
+}
+
+
+#mapply{
+    float: left;
+    width: 150px;
+    height: 40px;
+    color: ghostwhite;
+    font-size:x-large;
+
+    text-align:center;
+    background-color:darkmagenta;
+    border-radius: 5px;
+    box-shadow: rosybrown 2px 2px 5px;
+
+}
